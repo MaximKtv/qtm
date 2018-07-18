@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3992CDFC20FF4FB300FFDCCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3992CDFB20FF4FB300FFDCCD /* main.m */; };
+		3992CDFF20FF4FB300FFDCCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3992CDFE20FF4FB300FFDCCD /* AppDelegate.m */; };
+		3992CE0220FF4FB300FFDCCD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3992CE0120FF4FB300FFDCCD /* FirstViewController.m */; };
+		3992CE0520FF4FB300FFDCCD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3992CE0420FF4FB300FFDCCD /* SecondViewController.m */; };
+		3992CE0820FF4FB300FFDCCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3992CE0620FF4FB300FFDCCD /* Main.storyboard */; };
+		3992CE0A20FF4FB300FFDCCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3992CE0920FF4FB300FFDCCD /* Assets.xcassets */; };
+		3992CE0D20FF4FB300FFDCCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3992CE0B20FF4FB300FFDCCD /* LaunchScreen.storyboard */; };
+		3992CE1820FF4FB300FFDCCD /* quickTaskModulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3992CE1720FF4FB300FFDCCD /* quickTaskModulatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3992CE1420FF4FB300FFDCCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3992CDEF20FF4FB300FFDCCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3992CDF620FF4FB300FFDCCD;
+			remoteInfo = quickTaskModulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3992CDF720FF4FB300FFDCCD /* quickTaskModulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickTaskModulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3992CDFB20FF4FB300FFDCCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3992CDFD20FF4FB300FFDCCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3992CDFE20FF4FB300FFDCCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3992CE0020FF4FB300FFDCCD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3992CE0120FF4FB300FFDCCD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3992CE0320FF4FB300FFDCCD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3992CE0420FF4FB300FFDCCD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3992CE0720FF4FB300FFDCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3992CE0920FF4FB300FFDCCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3992CE0C20FF4FB300FFDCCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3992CE0E20FF4FB300FFDCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3992CE1320FF4FB300FFDCCD /* quickTaskModulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickTaskModulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3992CE1720FF4FB300FFDCCD /* quickTaskModulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quickTaskModulatorTests.m; sourceTree = "<group>"; };
+		3992CE1920FF4FB300FFDCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3992CDF420FF4FB300FFDCCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3992CE1020FF4FB300FFDCCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3992CDEE20FF4FB300FFDCCD = {
+			isa = PBXGroup;
+			children = (
+				3992CDF920FF4FB300FFDCCD /* quickTaskModulator */,
+				3992CE1620FF4FB300FFDCCD /* quickTaskModulatorTests */,
+				3992CDF820FF4FB300FFDCCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3992CDF820FF4FB300FFDCCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3992CDF720FF4FB300FFDCCD /* quickTaskModulator.app */,
+				3992CE1320FF4FB300FFDCCD /* quickTaskModulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3992CDF920FF4FB300FFDCCD /* quickTaskModulator */ = {
+			isa = PBXGroup;
+			children = (
+				3992CDFD20FF4FB300FFDCCD /* AppDelegate.h */,
+				3992CDFE20FF4FB300FFDCCD /* AppDelegate.m */,
+				3992CE0020FF4FB300FFDCCD /* FirstViewController.h */,
+				3992CE0120FF4FB300FFDCCD /* FirstViewController.m */,
+				3992CE0320FF4FB300FFDCCD /* SecondViewController.h */,
+				3992CE0420FF4FB300FFDCCD /* SecondViewController.m */,
+				3992CE0620FF4FB300FFDCCD /* Main.storyboard */,
+				3992CE0920FF4FB300FFDCCD /* Assets.xcassets */,
+				3992CE0B20FF4FB300FFDCCD /* LaunchScreen.storyboard */,
+				3992CE0E20FF4FB300FFDCCD /* Info.plist */,
+				3992CDFA20FF4FB300FFDCCD /* Supporting Files */,
+			);
+			path = quickTaskModulator;
+			sourceTree = "<group>";
+		};
+		3992CDFA20FF4FB300FFDCCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3992CDFB20FF4FB300FFDCCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3992CE1620FF4FB300FFDCCD /* quickTaskModulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3992CE1720FF4FB300FFDCCD /* quickTaskModulatorTests.m */,
+				3992CE1920FF4FB300FFDCCD /* Info.plist */,
+			);
+			path = quickTaskModulatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3992CDF620FF4FB300FFDCCD /* quickTaskModulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3992CE1C20FF4FB300FFDCCD /* Build configuration list for PBXNativeTarget "quickTaskModulator" */;
+			buildPhases = (
+				3992CDF320FF4FB300FFDCCD /* Sources */,
+				3992CDF420FF4FB300FFDCCD /* Frameworks */,
+				3992CDF520FF4FB300FFDCCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quickTaskModulator;
+			productName = quickTaskModulator;
+			productReference = 3992CDF720FF4FB300FFDCCD /* quickTaskModulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3992CE1220FF4FB300FFDCCD /* quickTaskModulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3992CE1F20FF4FB300FFDCCD /* Build configuration list for PBXNativeTarget "quickTaskModulatorTests" */;
+			buildPhases = (
+				3992CE0F20FF4FB300FFDCCD /* Sources */,
+				3992CE1020FF4FB300FFDCCD /* Frameworks */,
+				3992CE1120FF4FB300FFDCCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3992CE1520FF4FB300FFDCCD /* PBXTargetDependency */,
+			);
+			name = quickTaskModulatorTests;
+			productName = quickTaskModulatorTests;
+			productReference = 3992CE1320FF4FB300FFDCCD /* quickTaskModulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3992CDEF20FF4FB300FFDCCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Maxim Kashtanov";
+				TargetAttributes = {
+					3992CDF620FF4FB300FFDCCD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3992CE1220FF4FB300FFDCCD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3992CDF620FF4FB300FFDCCD;
+					};
+				};
+			};
+			buildConfigurationList = 3992CDF220FF4FB300FFDCCD /* Build configuration list for PBXProject "quickTaskModulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3992CDEE20FF4FB300FFDCCD;
+			productRefGroup = 3992CDF820FF4FB300FFDCCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3992CDF620FF4FB300FFDCCD /* quickTaskModulator */,
+				3992CE1220FF4FB300FFDCCD /* quickTaskModulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3992CDF520FF4FB300FFDCCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3992CE0D20FF4FB300FFDCCD /* LaunchScreen.storyboard in Resources */,
+				3992CE0A20FF4FB300FFDCCD /* Assets.xcassets in Resources */,
+				3992CE0820FF4FB300FFDCCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3992CE1120FF4FB300FFDCCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3992CDF320FF4FB300FFDCCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3992CE0520FF4FB300FFDCCD /* SecondViewController.m in Sources */,
+				3992CDFF20FF4FB300FFDCCD /* AppDelegate.m in Sources */,
+				3992CE0220FF4FB300FFDCCD /* FirstViewController.m in Sources */,
+				3992CDFC20FF4FB300FFDCCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3992CE0F20FF4FB300FFDCCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3992CE1820FF4FB300FFDCCD /* quickTaskModulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3992CE1520FF4FB300FFDCCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3992CDF620FF4FB300FFDCCD /* quickTaskModulator */;
+			targetProxy = 3992CE1420FF4FB300FFDCCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3992CE0620FF4FB300FFDCCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3992CE0720FF4FB300FFDCCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3992CE0B20FF4FB300FFDCCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3992CE0C20FF4FB300FFDCCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3992CE1A20FF4FB300FFDCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3992CE1B20FF4FB300FFDCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3992CE1D20FF4FB300FFDCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = quickTaskModulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Kashtanov.quickTaskModulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3992CE1E20FF4FB300FFDCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = quickTaskModulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Kashtanov.quickTaskModulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3992CE2020FF4FB300FFDCCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = quickTaskModulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Kashtanov.quickTaskModulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quickTaskModulator.app/quickTaskModulator";
+			};
+			name = Debug;
+		};
+		3992CE2120FF4FB300FFDCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = quickTaskModulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Kashtanov.quickTaskModulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quickTaskModulator.app/quickTaskModulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3992CDF220FF4FB300FFDCCD /* Build configuration list for PBXProject "quickTaskModulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3992CE1A20FF4FB300FFDCCD /* Debug */,
+				3992CE1B20FF4FB300FFDCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3992CE1C20FF4FB300FFDCCD /* Build configuration list for PBXNativeTarget "quickTaskModulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3992CE1D20FF4FB300FFDCCD /* Debug */,
+				3992CE1E20FF4FB300FFDCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3992CE1F20FF4FB300FFDCCD /* Build configuration list for PBXNativeTarget "quickTaskModulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3992CE2020FF4FB300FFDCCD /* Debug */,
+				3992CE2120FF4FB300FFDCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3992CDEF20FF4FB300FFDCCD /* Project object */;
+}
