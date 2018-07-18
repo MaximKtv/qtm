@@ -24,4 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void) checkCommit {
+    
+    //NSLog(@"%i", _numTwo)
+    NSLog (@"Hryas'");
+}
+
+
+
+
 @end
